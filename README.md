@@ -1,10 +1,13 @@
 # terriblytinytales
 Assignment Using MERN Stack
-
+Technologies USed- ReactJs, NodeJs, Mongoose, Mongodb, Bootstrap
 # How to Run
 Clone this Repository and run command npm install it will install all the packages
 and to run the file use 'npm start'
-# Server run at localhost:5000
+
+Here all the inputs are store at mongodb Atlas database and if user enter string and symbols it wouldn't get store at backend.
+
+# Server runs at localhost:5000
 
 # Features
 
