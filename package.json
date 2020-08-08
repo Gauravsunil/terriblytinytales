@@ -1,0 +1,26 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Node Express Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "heroku-postbuild": "cd frontend &&  npm install && npm run build"
+    },
+
+    "engines": {
+        "node": "10.16.3"
+    },
+  
+  "author": "Gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.9.0",
+    "nodemon": "^2.0.4"
+  }
+}
